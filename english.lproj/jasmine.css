@@ -11,7 +11,7 @@ body {
   color: blue; 
 }
 
-.run_spec {
+.jasmine_reporter .run_spec {
   float:right;
   padding-right: 5px;
   font-size: .8em;
@@ -22,29 +22,29 @@ body {
   margin: 0 5px;
 }
 
-.banner {
+.jasmine_reporter .banner {
   color: #303;
   background-color: #fef;
   padding: 5px;
 }
 
-.logo {
+.jasmine_reporter .logo {
   float: left;
   font-size: 1.1em;
   padding-left: 5px;
 }
 
-.logo .version {
+.jasmine_reporter .logo .version {
   font-size: .6em;
   padding-left: 1em;
 }
 
-.runner.running {
+.jasmine_reporter .runner.running {
   background-color: yellow;
 }
 
 
-.options {
+.jasmine_reporter .options {
   text-align: right;
   font-size: .8em;
 }
@@ -52,65 +52,65 @@ body {
 
 
 
-.suite {
+.jasmine_reporter .suite {
   border: 1px outset gray;
   margin: 5px 0;
   padding-left: 1em;
 }
 
-.suite .suite {
+.jasmine_reporter .suite .suite {
   margin: 5px; 
 }
 
-.suite.passed {
+.jasmine_reporter .suite.passed {
   background-color: #dfd;
 }
 
-.suite.failed {
+.jasmine_reporter .suite.failed {
   background-color: #fdd;
 }
 
-.spec {
+.jasmine_reporter .spec {
   margin: 5px;
   padding-left: 1em;
   clear: both;
 }
 
-.spec.failed, .spec.passed, .spec.skipped {
+.jasmine_reporter .spec.failed, .spec.passed, .spec.skipped {
   padding-bottom: 5px;
   border: 1px solid gray;
 }
 
-.spec.failed {
+.jasmine_reporter .spec.failed {
   background-color: #fbb;
   border-color: red;
 }
 
-.spec.passed {
+.jasmine_reporter .spec.passed {
   background-color: #bfb;
   border-color: green;
 }
 
-.spec.skipped {
+.jasmine_reporter .spec.skipped {
   background-color: #bbb;
 }
 
-.messages {
+.jasmine_reporter .messages {
   border-left: 1px dashed gray;
   padding-left: 1em;
   padding-right: 1em;
 }
 
-.passed {
+.jasmine_reporter .passed {
   background-color: #cfc;
   display: none;
 }
 
-.failed {
+.jasmine_reporter .failed {
   background-color: #fbb;
 }
 
-.skipped {
+.jasmine_reporter .skipped {
   color: #777;
   background-color: #eee;
   display: none;
@@ -121,17 +121,17 @@ body {
   /*white-space: pre;*/
 /*}*/
 
-.resultMessage span.result {
+.jasmine_reporter .resultMessage span.result {
   display: block;
   line-height: 2em;
   color: black;
 }
 
-.resultMessage .mismatch {
+.jasmine_reporter .resultMessage .mismatch {
   color: black;
 }
 
-.stackTrace {
+.jasmine_reporter .stackTrace {
   white-space: pre;
   font-size: .8em;
   margin-left: 10px;
@@ -142,12 +142,12 @@ body {
   background: #eef;
 }
 
-.finished-at {
+.jasmine_reporter .finished-at {
   padding-left: 1em;
   font-size: .6em;
 }
 
-.show-passed .passed,
+.jasmine_reporter .show-passed .passed,
 .show-skipped .skipped {
   display: block;
 }
@@ -158,7 +158,7 @@ body {
   right: 100%;
 }
 
-.runner {
+.jasmine_reporter .runner {
   border: 1px solid gray;
   display: block;
   margin: 5px 0;
