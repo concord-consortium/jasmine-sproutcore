@@ -147,8 +147,8 @@ body {
   font-size: .6em;
 }
 
-.jasmine_reporter .show-passed .passed,
-.show-skipped .skipped {
+.jasmine_reporter.show-passed .passed,
+.jasmine_reporter.show-skipped .skipped {
   display: block;
 }
 
